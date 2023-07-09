@@ -3,9 +3,9 @@
 
 declare(strict_types=1);
 
-namespace HtunHtunHtet;
+namespace SoftwareEngineer;
 
-final class About extends Me 
+final class AboutMe extends HtunHtunHtet 
 {
     public string $fullName = 'Htun Htun Htet';
     
@@ -16,7 +16,10 @@ final class About extends Me
         return $this->nickName;
     }
 
-    public function getMyKnowledges(): array
+    /**
+     * @return string []
+     */
+    public function getKnowledge(): array
     {
         return [
             PHP::class,
@@ -24,9 +27,25 @@ final class About extends Me
             Laravel::class,
             React::class,
             Typscript::class,
-            Javascript::class,
             Aws::class,
+            Docker::class,
         ];
+    }
+    
+    /**
+     * @return array<string, string>
+     */
+    public function getAttributes(): array
+    {
+        return [
+            'Current Company' => 'Pomelopay' ,
+            'Position' => 'Senior Full Stack Developer',
+        ];   
+    }
+    
+    public function getYearsOfExperiences(): int
+    {
+        return 9;    
     }
 }
 ```
