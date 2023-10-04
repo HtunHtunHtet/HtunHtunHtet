@@ -26,6 +26,7 @@ final class AboutMe extends HtunHtunHtet
             Symfony::class,
             Laravel::class,
             React::class,
+	    Vue::class,
             Typscript::class,
             Aws::class,
             Docker::class,
@@ -38,14 +39,14 @@ final class AboutMe extends HtunHtunHtet
     public function getAttributes(): array
     {
         return [
-            'Current Company' => 'Pomelopay' ,
+            'Current Company' => 'Global Software Solutions Corp.' ,
             'Position' => 'Senior Full Stack Developer',
         ];   
     }
     
     public function getYearsOfExperiences(): int
     {
-        return 9;    
+        return 10;    
     }
 }
 ```
