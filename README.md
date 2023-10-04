@@ -39,7 +39,7 @@ final class AboutMe extends HtunHtunHtet
     public function getAttributes(): array
     {
         return [
-            'Current Company' => 'Global Software Solutions Corp.' ,
+            'Current Company' => 'Global Software Solutions Corp' ,
             'Position' => 'Senior Full Stack Developer',
         ];   
     }
