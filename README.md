@@ -23,7 +23,7 @@ final class AboutMe extends HtunHtunHtet
     {
         return [
             PHP::class,
-            Python:class, 
+            Python::class, 
             Symfony::class,
             Laravel::class,
             React::class,
@@ -46,5 +46,3 @@ final class AboutMe extends HtunHtunHtet
     }
 }
 ```
-
-aasdfsdf
