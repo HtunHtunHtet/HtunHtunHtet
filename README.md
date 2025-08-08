@@ -23,6 +23,7 @@ final class AboutMe extends HtunHtunHtet
     {
         return [
             PHP::class,
+            Python:class, 
             Symfony::class,
             Laravel::class,
             React::class,
@@ -39,14 +40,11 @@ final class AboutMe extends HtunHtunHtet
     public function getAttributes(): array
     {
         return [
-            'Current Company' => 'Verb Interactive' ,
-            'Position' => 'Integration Engineer',
+            'Current Company' => 'Watsco Inc',
+            'Position' => 'Software Developer',
         ];   
-    }
-    
-    public function getYearsOfExperiences(): int
-    {
-        return 10;    
     }
 }
 ```
+
+aasdfsdf
